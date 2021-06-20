@@ -69,7 +69,7 @@ var app = new Vue({
     },
   
     doChangeState: function(item) {
-      item.state = item.state ? 0 : 1
+      item.state = !item.state ? 1 : 0
     },
 
     doRemove: function(item) {
