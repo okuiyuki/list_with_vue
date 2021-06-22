@@ -30,7 +30,7 @@ var app = new Vue({
   computed: {
     computedTodos: function() {
       return this.todos.filter(function (el) {
-        return this.current < 0 ? true : this.currrent === el.state
+        return this.current < 0 ? true : this.current === el.state
       }, this)
     },
     
